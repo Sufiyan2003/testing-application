@@ -1,17 +1,16 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "../assets/Header.css";
 
 function Header() {
   return (
     <div className="topnav">
-      <a className="active" href="#home">
-        Home
-      </a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </div>
+    <Link to="/">Home</Link>
+    <Link to="/about">About</Link>
+    <Link to="/skills">Skills</Link>
+    <Link to="/experience">Experience</Link>
+    <Link to="/contact">Contact</Link>
+  </div>
   );
 }
 
