@@ -1,5 +1,6 @@
 import React from "react";
 import me from "../pictures/me.jpg";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "../assets/About.css";
 import { Row, Col, Button } from "reactstrap";
 
@@ -17,7 +18,7 @@ function About() {
           am enthusiastic about hardware design and recently i am diving into
           the deep world of programming. Contact me if you have any question.
         </p>
-        <Button placeholder="Contact Me" color="red">Contact Me</Button>
+        <Button className="custom_button">Contact Me</Button> 
       </div>
     </div>
   );
