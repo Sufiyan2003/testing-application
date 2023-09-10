@@ -6,6 +6,18 @@
     margin-top: 5%;
 }
 
+.image-container{
+    min-width: 300px;
+}
+.text-container{
+    font-size: 20px;
+    text-align: justify;
+    min-width: 300px;
+}
+.image-container img{
+    width: 100% ;
+    flex-shrink: 0;
+}
 .text-container{
     margin-left: 5%;
 }
