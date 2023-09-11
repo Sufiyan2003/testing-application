@@ -1,10 +1,11 @@
 import React from "react";
+
 import "../assets/Header.css";
 
 function Header() {
   return (
     <div className="topnav">
-      <a href="/">Home</a>
+      <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
