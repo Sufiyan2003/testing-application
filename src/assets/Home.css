@@ -5,18 +5,28 @@
 }
 
 .index-module_type__E-SaG {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .my_name {
-  font-size: 40px;
+  font-size: 27px;
 }
 .block-text {
   color: #98ab96;
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
+.image-section{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+img{
+    border-radius: 50%;
+    
+}
 .social-container{
     display: flex;
     flex-direction: row;

@@ -29,6 +29,7 @@
     border-radius: 30px;
     width: 180px;
     height: 50px;
+    margin-top: 15%;
 }
 .custom_button:hover{
     background-color: black;

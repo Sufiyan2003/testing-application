@@ -7,10 +7,8 @@ import { Row, Col, Button } from "reactstrap";
 function About() {
   return (
     <div className="about-container">
-      <div className="image-container">
-        <img src={me} alt="hero" className="actual-image" />
-      </div>
       <div className="text-container">
+        <h1 href="#about">About</h1>
         <p>
           Hi, my name is Sufiyan Sadiq and welcome to my website, this is simply
           to test out how far i can push my react skills and maybe make this
@@ -18,7 +16,6 @@ function About() {
           am enthusiastic about hardware design and recently i am diving into
           the deep world of programming. Contact me if you have any question.
         </p>
-        <Button className="custom_button">Contact Me</Button> 
       </div>
     </div>
   );
