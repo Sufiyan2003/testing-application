@@ -29,7 +29,7 @@ function Home() {
     <div className="home-container">
       <div className="rotating-block">
         <p className="block-text">Hello, I am</p>
-        <h1>Muhammad Sufiyan Sadiq</h1>
+        <h1 className="my_name">Muhammad Sufiyan Sadiq</h1>
         {/* <p className="block-text rotating-title">{titles[currentTitleIndex]}</p> */}
         <TypeAnimation
           sequence={[
@@ -44,6 +44,7 @@ function Home() {
           ]}
           speed={50}
           repeat={Infinity}
+          className="typing"
         />
       </div>
     </div>
