@@ -6,7 +6,7 @@ import { Row, Col, Button } from "reactstrap";
 
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="text-container">
         <h1 href="#about">About</h1>
         <p>

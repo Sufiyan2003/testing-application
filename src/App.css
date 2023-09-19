@@ -42,3 +42,7 @@
     transform: rotate(360deg);
   }
 }
+
+.custom-card{
+  width: 300px;
+}

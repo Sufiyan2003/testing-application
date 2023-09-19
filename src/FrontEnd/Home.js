@@ -31,9 +31,9 @@ function Home() {
   }, [titles]);
 
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <div className="image-section">
-        <div className="hero">
+        <div className="hero image-container">
           <img src={hero} alt="hero" />
         </div>
         <div className="rotating-block">
