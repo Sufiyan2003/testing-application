@@ -46,3 +46,14 @@
 .custom-card{
   width: 300px;
 }
+
+/* my own card css */
+.card{
+  width: 18rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover{
+  border-color: #61dafb;
+  transform: translateY(-20%);
+}
