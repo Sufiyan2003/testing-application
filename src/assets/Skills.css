@@ -19,8 +19,8 @@
   margin-left: -66%;
 }
 
-@media screen (min-width: 400px){
-    .skill-header h1{
-        margin-left: -61%;
-    }
+@media screen (min-width: 400px) {
+  .skill-header h1 {
+    margin-left: -61%;
+  }
 }

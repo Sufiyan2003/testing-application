@@ -1,6 +1,6 @@
 import React from "react";
 import me from "../pictures/me.jpg";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/About.css";
 import { Row, Col, Button } from "reactstrap";
 
