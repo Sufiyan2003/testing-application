@@ -1,18 +1,17 @@
 import React from "react";
 import "../assets/Skills.css";
-import Card from "../component/Card";
-
-function Skills() {
+const Skills = () => {
   return (
-    <div className="skill-container" id="skills">
-      <div className="skill-header">
+    <div className="skill-container">
+      <div className="heading">
         <h1>Skills</h1>
-        <div className="skill-cards flex-none">
-          
-        </div>
+      </div>
+      <div className="skill-content">
+        <div className="column-1">This is Col 1</div>
+        <div className="column-2">This is Col 2</div>
       </div>
     </div>
   );
-}
+};
 
 export default Skills;
