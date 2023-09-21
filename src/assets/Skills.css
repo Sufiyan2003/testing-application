@@ -19,7 +19,7 @@
   margin-left: -66%;
 }
 
-@media screen (min-width: 400px) {
+@media screen and (min-width: 400px) {
   .skill-header h1 {
     margin-left: -61%;
   }
